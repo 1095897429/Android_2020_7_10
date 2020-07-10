@@ -5,3 +5,4 @@
     所有的build文件夹
     所有.iml文件
     local.properties文件
+2.默认是master，现在在sourcetree上创建新分支 名为dev
