@@ -1,12 +1,19 @@
 package com.liangzai.myapplication.bean
 
+import android.util.Log
+import android.widget.TextView
+import kotlin.coroutines.CoroutineContext
+import kotlin.coroutines.coroutineContext
+
 /**
  * @author zhouliang
  * 版本 1.0
  * 创建时间 2020/7/13
  * 描述:测试一些语法
  */
+
 class User private constructor( name :String){
+
  var name :String = "world"
  var myName = "kotlin"
  var text ="""
@@ -74,7 +81,27 @@ class User private constructor( name :String){
         val str33 =  str11
         print(str22 === str33)//引用地址相等，输出：true
 
+        //out表示只用来输出
+        var textviews:List<out TextView>
 
+
+        Thread(object : Runnable{
+            override fun run() {
+                TODO("Not yet implemented")
+            }
+        })
+
+
+    }
+
+
+
+    class Monster<T> where T:String{
+
+    }
+
+    class Pair<T>{
+        var first:T? = null
     }
 
     //本地/嵌套函数
