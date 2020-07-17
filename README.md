@@ -9,3 +9,5 @@
 3.现在的操作是本地有master和dev,在dev开发完，然后合并到master分支，最后提交到远程分支
 
 
+1.复习了MVP的结构目录 -- 图片在mipmap-hdpi中
+2.viewpager中fragment才 调用setUserVisibleHint回调 函数 -- ✅
