@@ -7,3 +7,5 @@
     local.properties文件
 2.默认是master，现在在sourcetree上创建新分支 名为dev
 3.现在的操作是本地有master和dev,在dev开发完，然后合并到master分支，最后提交到远程分支
+
+
